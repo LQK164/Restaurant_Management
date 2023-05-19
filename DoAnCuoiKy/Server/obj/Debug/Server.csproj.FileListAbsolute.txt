@@ -1,0 +1,13 @@
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.Properties.Resources.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.exe.config
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.CopyComplete
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.pdb
