@@ -11,6 +11,7 @@ using System.Net.Sockets;
 using System.Windows.Forms;
 using PacketStructure;
 using System.Net.Http;
+using System.Threading;
 
 namespace DangNhap
 {
@@ -33,7 +34,7 @@ namespace DangNhap
             {
                 HoTen = txtHoTen.Text.Trim(),
                 MatKhau = txtMatKhau.Text.Trim(),
-                VaiTro = (int)VaiTroNguoiDung.NhanVien
+                //VaiTro = (int)VaiTroNguoiDung.NhanVien
             };
             byte[] data = sendData.GetDataStream();
             NetworkStream net_stream = tcpClient.GetStream();
@@ -41,11 +42,32 @@ namespace DangNhap
             net_stream.Flush();
         }
 
+        private void Receive()
+        {
+            while (true)
+            {
+                NetworkStream net_stream = tcpClient.GetStream();
+                byte[] data = new byte[1024];
+                int byte_count = net_stream.Read(data, 0, data.Length);
+                if (byte_count == 0)
+                {
+                    break;
+                }
+                // nhan thong diep tu server
+                MessageBox.Show(Encoding.UTF8.GetString(data, 0, byte_count));
+            }
+        }
+
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             try
             {
                 Connect();
+                Thread clientThread = new Thread(Receive)
+                {
+                    IsBackground = true
+                };
+                clientThread.Start();
             }
             catch (Exception ex)
             {

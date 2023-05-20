@@ -8,15 +8,16 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using PacketStructure;
+using System.Data;
 
 namespace Server
 {
     public class Server
     {
         private SqlConnection conn;
-        private static TcpListener tcpServer;
-        public static List<EndPoint> users = new List<EndPoint>();
-        private static Packet receivedData;
+        private TcpListener tcpServer;
+        private List<EndPoint> userList = new List<EndPoint>();
+        private Packet receivedData;
 
         public Server()
         {
@@ -24,24 +25,37 @@ namespace Server
             conn.Open();
         }
 
-        private bool NameExists(Packet receivedData)
+        public TcpListener TcpServer
         {
-            bool check = true;
-            string sql_query = "select * from TaiKhoan where HoTen = @hoten";
-            SqlCommand sql_cmd = new SqlCommand(sql_query, this.conn);
-            sql_cmd.Parameters.AddWithValue("hoten", receivedData.HoTen);
-            SqlDataReader dataReader = sql_cmd.ExecuteReader();
-            if (dataReader.HasRows)
-            {
-                while (dataReader.Read())
-                {
-                    sHoTen = dataReader.GetString(1);
-                }
-            }
-            dataReader.Close();
+            get { return this.tcpServer; }
+            set { this.tcpServer = value; }
         }
 
-        private static void Receive(object obj)
+        public Packet ReceivedData
+        {
+            get { return this.receivedData; }
+            set { this.receivedData = value; }
+        }
+
+        public bool CheckLogin(Packet receivedData)
+        {
+            bool check = true;
+            string sql_query = "select * from TaiKhoan where HoTen = @hoten and MatKhau = @matkhau";
+            SqlCommand sql_cmd = new SqlCommand(sql_query, this.conn);
+            //sql_cmd.Parameters.AddWithValue("hoten", $"N'{receivedData.HoTen}'");
+            //sql_cmd.Parameters.AddWithValue("matkhau", $"N'{receivedData.MatKhau}'");
+            sql_cmd.Parameters.Add("hoten", SqlDbType.NVarChar).Value = receivedData.HoTen;
+            sql_cmd.Parameters.Add("matkhau", SqlDbType.NVarChar).Value = receivedData.MatKhau;
+            SqlDataReader dataReader = sql_cmd.ExecuteReader();
+            if (!dataReader.HasRows)
+            {
+                check = false;
+            }
+            dataReader.Close();
+            return check;
+        }
+
+        public void Receive(object obj)
         {
             TcpClient client = obj as TcpClient;
             while (client.Connected)
@@ -53,13 +67,25 @@ namespace Server
                 {
                     break;
                 }
-                receivedData = new Packet(data);
-                users.Add(client.Client.RemoteEndPoint);
+                this.receivedData = new Packet(data);
+                this.userList.Add(client.Client.RemoteEndPoint);
+                byte[] sendData;
+                if (CheckLogin(this.receivedData))
+                {
+                    // tao goi tin de gui lai (sau nay)
+                    sendData = Encoding.UTF8.GetBytes("Đăng nhập thành công!");
+                }
+                else
+                {
+                    sendData = Encoding.UTF8.GetBytes("Tài khoản không tồn tại!");
+                }
+                net_stream.Write(sendData, 0, sendData.Length);
+                net_stream.Flush();
                 // Con bo sung sau
             }
         }
 
-        public static void Listen()
+        /*public static void Listen()
         {
             tcpServer = new TcpListener(IPAddress.Any, 10000);
             tcpServer.Start();
@@ -79,6 +105,6 @@ namespace Server
             {
                 tcpServer = new TcpListener(IPAddress.Any, 10000);
             }
-        }
+        }*/
     }
 }

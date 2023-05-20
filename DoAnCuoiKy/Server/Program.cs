@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -14,11 +16,25 @@ namespace Server
         [STAThread]
         static void Main()
         {
-            Thread serverThread = new Thread(new ThreadStart(Server.Listen))
+            Server server = new Server();
+            server.TcpServer = new TcpListener(IPAddress.Any, 10000);
+            server.TcpServer.Start();
+            try
             {
-                IsBackground = true
-            };
-            serverThread.Start();
+                while (true)
+                {
+                    TcpClient client = server.TcpServer.AcceptTcpClient();
+                    Thread receiveThread = new Thread(server.Receive)
+                    {
+                        IsBackground = true
+                    };
+                    receiveThread.Start(client);
+                }
+            }
+            catch
+            {
+                server.TcpServer = new TcpListener(IPAddress.Any, 10000);
+            }
         }
     }
 }

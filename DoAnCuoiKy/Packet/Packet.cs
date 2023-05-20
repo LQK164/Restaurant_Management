@@ -59,31 +59,31 @@ namespace PacketStructure
         public Packet(byte[] data)
         {
             // Đọc độ dài của sMaTK ở byte đầu tiên của gói tin
-            int sMaTK_length = BitConverter.ToInt32(data, 0);
+            //int sMaTK_length = BitConverter.ToInt32(data, 0);
 
             // Đọc độ dài của sHoTen ở 4 byte tiếp theo
-            int sHoTen_length = BitConverter.ToInt32(data, 4);
+            int sHoTen_length = BitConverter.ToInt32(data, 0);
 
             // Đọc độ dài của sMatKhau ở 4 byte tiếp theo
-            int sMatKhau_length = BitConverter.ToInt32(data, 8);
+            int sMatKhau_length = BitConverter.ToInt32(data, 4);
 
             // Đọc độ dài của iVaiTro ở 4 byte tiếp theo
-            int iVaiTro_length = BitConverter.ToInt32(data, 12);
+            //int iVaiTro_length = BitConverter.ToInt32(data, 12);
 
             // Đọc nội dung sMaTK
-            if (sMaTK_length > 0)
+            /*if (sMaTK_length > 0)
             {
                 this.sMaTK = Encoding.UTF8.GetString(data, 16, sMaTK_length);
             }
             else
             {
                 this.sMaTK = string.Empty;
-            }
+            }*/
 
             // Đọc nội dung sHoTen
             if (sHoTen_length > 0)
             {
-                this.sHoTen = Encoding.UTF8.GetString(data, 16 + sMaTK_length, sHoTen_length);
+                this.sHoTen = Encoding.UTF8.GetString(data, 8, sHoTen_length);
             }
             else
             {
@@ -93,7 +93,7 @@ namespace PacketStructure
             // Đọc nội dung của sMatKhau
             if (sMatKhau_length > 0)
             {
-                this.sMatKhau = Encoding.UTF8.GetString(data, 16 + sMaTK_length + sHoTen_length, sMatKhau_length);
+                this.sMatKhau = Encoding.UTF8.GetString(data, 8 + sHoTen_length, sMatKhau_length);
             }
             else
             {
@@ -101,7 +101,7 @@ namespace PacketStructure
             }
 
             // Đọc nội dung của iVaiTro
-            this.iVaiTro = int.Parse(Encoding.UTF8.GetString(data, 16 + sMaTK_length + sHoTen_length + sMatKhau_length, 1));
+            //this.iVaiTro = int.Parse(Encoding.UTF8.GetString(data, 16 + sMaTK_length + sHoTen_length + sMatKhau_length, 1));
 
         }
 
@@ -111,19 +111,19 @@ namespace PacketStructure
             List<byte> data = new List<byte>();
 
             // Thêm độ dài của sMaTK
-            data.AddRange(BitConverter.GetBytes(this.sMaTK.Length));
+            //data.AddRange(BitConverter.GetBytes(this.sMaTK.Length));
 
             // Thêm độ dài của sHoTen
-            data.AddRange(BitConverter.GetBytes(this.sHoTen.Length));
+            data.AddRange(BitConverter.GetBytes(Encoding.UTF8.GetByteCount(this.sHoTen)));
 
             // Thêm độ dài của sMatKhau
-            data.AddRange(BitConverter.GetBytes(this.sMatKhau.Length));
+            data.AddRange(BitConverter.GetBytes(Encoding.UTF8.GetByteCount(this.sMatKhau)));
 
             // Thêm độ dài của iVaiTro
-            data.AddRange(BitConverter.GetBytes(1));
+            //data.AddRange(BitConverter.GetBytes(1));
 
             // Thêm sMaTK
-            data.AddRange(Encoding.UTF8.GetBytes(this.sMaTK));
+            //data.AddRange(Encoding.UTF8.GetBytes(this.sMaTK));
 
             // Thêm sHoTen
             data.AddRange(Encoding.UTF8.GetBytes(this.sHoTen));
@@ -132,7 +132,7 @@ namespace PacketStructure
             data.AddRange(Encoding.UTF8.GetBytes(this.sMatKhau));
 
             // Thêm iVaiTro
-            data.AddRange(BitConverter.GetBytes(this.iVaiTro));
+            //data.AddRange(BitConverter.GetBytes(this.iVaiTro));
 
             return data.ToArray();
         }
