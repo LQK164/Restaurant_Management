@@ -4,3 +4,9 @@ D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\PacketStructure.csproj
 D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\PacketStructure.csproj.CoreCompileInputs.cache
 D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\Packet.dll
 D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\Packet.pdb
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\bin\Debug\Packet.dll
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\bin\Debug\Packet.pdb
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.AssemblyReference.cache
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\Packet.dll
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\Packet.pdb
