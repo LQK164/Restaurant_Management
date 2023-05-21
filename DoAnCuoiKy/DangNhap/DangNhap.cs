@@ -58,20 +58,58 @@ namespace DangNhap
             }
         }
 
+        private bool CheckLogic(string sHOTEN, string sMATKHAU)
+        {
+            if (string.IsNullOrEmpty(sHOTEN) || string.IsNullOrEmpty(sMATKHAU))
+            {
+                MessageBox.Show("Vui lòng điền đẩy đủ thông tin!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (sHOTEN.Length > 30)
+            {
+                MessageBox.Show("Họ và tên không quá 30 ký tự!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (sMATKHAU.Length > 20)
+            {
+                MessageBox.Show("Mật khẩu không quá 20 ký tự!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (sHOTEN.Where(x => Char.IsDigit(x)).Any())
+            {
+                MessageBox.Show("Họ và tên không có ký tự số!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (sMATKHAU.Where(x => x == ' ').Any())
+            {
+                MessageBox.Show("Mật khẩu không có khoảng trống!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            return true;
+        }
+
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            try
+            if (CheckLogic(txtHoTen.Text.Trim(), txtMatKhau.Text.Trim()))
             {
-                Connect();
-                Thread clientThread = new Thread(Receive)
+                try
                 {
-                    IsBackground = true
-                };
-                clientThread.Start();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
+                    Connect();
+                    Thread clientThread = new Thread(Receive)
+                    {
+                        IsBackground = true
+                    };
+                    clientThread.Start();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
     }
