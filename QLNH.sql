@@ -68,8 +68,9 @@ FOREIGN KEY (MAMON) REFERENCES THUCDON(MAMON)
 
 CREATE TABLE TAIKHOAN
 (
-	MATK int PRIMARY KEY,
-	HOTEN nvarchar(30) not null,
+	MATK char(10) PRIMARY KEY, --
+	TENDANGNHAP varchar(20),
+	HOTEN varchar(30) not null,
 	MATKHAU nvarchar(20) not null,
-	VAITRO bit not null --0: nhan vien, 1: quan ly
+	VAITRO char(10),
 )

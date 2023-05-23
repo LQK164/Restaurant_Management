@@ -10,3 +10,9 @@ D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\PacketStructu
 D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.CoreCompileInputs.cache
 D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\Packet.dll
 D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\Packet.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Packet\bin\Debug\Packet.dll
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Packet\bin\Debug\Packet.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.AssemblyReference.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.CoreCompileInputs.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\Packet.dll
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Packet\obj\Debug\Packet.pdb
