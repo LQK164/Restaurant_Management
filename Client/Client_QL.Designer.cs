@@ -127,6 +127,7 @@
             this.btn_Update_CTHD = new System.Windows.Forms.Button();
             this.btn_Add_CTHD = new System.Windows.Forms.Button();
             this.btn_Show_CTHD = new System.Windows.Forms.Button();
+            this.btn_Refresh_NhanVien = new System.Windows.Forms.Button();
             this.tc_database.SuspendLayout();
             this.tp_NhanVien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_NhanVien)).BeginInit();
@@ -158,6 +159,7 @@
             // 
             // tp_NhanVien
             // 
+            this.tp_NhanVien.Controls.Add(this.btn_Refresh_NhanVien);
             this.tp_NhanVien.Controls.Add(this.lb_Luong);
             this.tp_NhanVien.Controls.Add(this.lb_ChucVu);
             this.tp_NhanVien.Controls.Add(this.lb_NgLV);
@@ -290,16 +292,18 @@
             this.dgv_NhanVien.RowTemplate.Height = 28;
             this.dgv_NhanVien.Size = new System.Drawing.Size(674, 674);
             this.dgv_NhanVien.TabIndex = 5;
+            this.dgv_NhanVien.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_NhanVien_RowHeaderMouseClick);
             // 
             // btn_Find_NhanVien
             // 
             this.btn_Find_NhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find_NhanVien.Location = new System.Drawing.Point(670, 6);
+            this.btn_Find_NhanVien.Location = new System.Drawing.Point(686, 6);
             this.btn_Find_NhanVien.Name = "btn_Find_NhanVien";
             this.btn_Find_NhanVien.Size = new System.Drawing.Size(130, 80);
             this.btn_Find_NhanVien.TabIndex = 4;
             this.btn_Find_NhanVien.Text = "Tìm";
             this.btn_Find_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Find_NhanVien.Click += new System.EventHandler(this.btn_Find_NhanVien_Click);
             // 
             // btn_Delete_NhanVien
             // 
@@ -310,6 +314,7 @@
             this.btn_Delete_NhanVien.TabIndex = 3;
             this.btn_Delete_NhanVien.Text = "Xóa";
             this.btn_Delete_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Delete_NhanVien.Click += new System.EventHandler(this.btn_Delete_NhanVien_Click);
             // 
             // btn_Update_NhanVien
             // 
@@ -320,6 +325,7 @@
             this.btn_Update_NhanVien.TabIndex = 2;
             this.btn_Update_NhanVien.Text = "Sửa";
             this.btn_Update_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Update_NhanVien.Click += new System.EventHandler(this.btn_Update_NhanVien_Click);
             // 
             // btn_Add_NhanVien
             // 
@@ -330,6 +336,7 @@
             this.btn_Add_NhanVien.TabIndex = 1;
             this.btn_Add_NhanVien.Text = "Thêm";
             this.btn_Add_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Add_NhanVien.Click += new System.EventHandler(this.btn_Add_NhanVien_Click);
             // 
             // btn_Show_NhanVien
             // 
@@ -340,6 +347,7 @@
             this.btn_Show_NhanVien.TabIndex = 0;
             this.btn_Show_NhanVien.Text = "Xem";
             this.btn_Show_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Show_NhanVien.Click += new System.EventHandler(this.btn_Show_NhanVien_Click);
             // 
             // tp_ThucDon
             // 
@@ -1166,6 +1174,17 @@
             this.btn_Show_CTHD.Text = "Xem";
             this.btn_Show_CTHD.UseVisualStyleBackColor = true;
             // 
+            // btn_Refresh_NhanVien
+            // 
+            this.btn_Refresh_NhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Refresh_NhanVien.Location = new System.Drawing.Point(550, 6);
+            this.btn_Refresh_NhanVien.Name = "btn_Refresh_NhanVien";
+            this.btn_Refresh_NhanVien.Size = new System.Drawing.Size(130, 80);
+            this.btn_Refresh_NhanVien.TabIndex = 19;
+            this.btn_Refresh_NhanVien.Text = "Tẩy";
+            this.btn_Refresh_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Refresh_NhanVien.Click += new System.EventHandler(this.btn_Refresh_NhanVien_Click);
+            // 
             // Client_QL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -1298,5 +1317,6 @@
         private System.Windows.Forms.Button btn_Show_CTHD;
         private System.Windows.Forms.Label lb_TriGia;
         private System.Windows.Forms.TextBox txt_TriGia;
+        private System.Windows.Forms.Button btn_Refresh_NhanVien;
     }
 }
