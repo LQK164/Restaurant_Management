@@ -10,3 +10,4 @@ D:\Code\Client\obj\Debug\Client.exe
 D:\Code\Client\obj\Debug\Client.pdb
 D:\Code\Client\obj\Debug\Client.Client_NV.resources
 D:\Code\Client\obj\Debug\Client.Client_QL.resources
+D:\Code\Client\obj\Debug\Client.Menu_login.resources

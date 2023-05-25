@@ -32,7 +32,7 @@
             this.lb_total_payment = new System.Windows.Forms.Label();
             this.btn_pay = new System.Windows.Forms.Button();
             this.btn_order_table = new System.Windows.Forms.Button();
-            this.cb_name = new System.Windows.Forms.ComboBox();
+            this.cb_Name_dish = new System.Windows.Forms.ComboBox();
             this.btn_add_dish = new System.Windows.Forms.Button();
             this.lb_quantity = new System.Windows.Forms.Label();
             this.txt_quantity = new System.Windows.Forms.TextBox();
@@ -52,7 +52,6 @@
             this.btn_table4 = new System.Windows.Forms.Button();
             this.btn_table5 = new System.Windows.Forms.Button();
             this.btn_table6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lv_Bill = new System.Windows.Forms.ListView();
             this.TENMON = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SOLUONG = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -102,15 +101,15 @@
             this.btn_order_table.UseVisualStyleBackColor = true;
             this.btn_order_table.Click += new System.EventHandler(this.btn_order_table_Click);
             // 
-            // cb_name
+            // cb_Name_dish
             // 
-            this.cb_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_name.FormattingEnabled = true;
-            this.cb_name.Location = new System.Drawing.Point(437, 16);
-            this.cb_name.Name = "cb_name";
-            this.cb_name.Size = new System.Drawing.Size(435, 40);
-            this.cb_name.TabIndex = 12;
-            this.cb_name.Text = "Tên món";
+            this.cb_Name_dish.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Name_dish.FormattingEnabled = true;
+            this.cb_Name_dish.Location = new System.Drawing.Point(437, 16);
+            this.cb_Name_dish.Name = "cb_Name_dish";
+            this.cb_Name_dish.Size = new System.Drawing.Size(435, 40);
+            this.cb_Name_dish.TabIndex = 12;
+            this.cb_Name_dish.Text = "Tên món";
             // 
             // btn_add_dish
             // 
@@ -297,14 +296,6 @@
             this.btn_table6.UseVisualStyleBackColor = true;
             this.btn_table6.Click += new System.EventHandler(this.btn_table6_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(86, 351);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 44);
-            this.textBox1.TabIndex = 30;
-            // 
             // lv_Bill
             // 
             this.lv_Bill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -346,7 +337,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1459, 644);
             this.Controls.Add(this.lv_Bill);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txt_MAKH);
             this.Controls.Add(this.lb_MAKH);
             this.Controls.Add(this.txt_MAHD);
@@ -360,7 +350,7 @@
             this.Controls.Add(this.txt_quantity);
             this.Controls.Add(this.lb_quantity);
             this.Controls.Add(this.btn_add_dish);
-            this.Controls.Add(this.cb_name);
+            this.Controls.Add(this.cb_Name_dish);
             this.Controls.Add(this.btn_order_table);
             this.Controls.Add(this.btn_pay);
             this.Controls.Add(this.lb_total_payment);
@@ -383,7 +373,7 @@
         private System.Windows.Forms.Label lb_total_payment;
         private System.Windows.Forms.Button btn_pay;
         private System.Windows.Forms.Button btn_order_table;
-        private System.Windows.Forms.ComboBox cb_name;
+        private System.Windows.Forms.ComboBox cb_Name_dish;
         private System.Windows.Forms.Button btn_add_dish;
         private System.Windows.Forms.Label lb_quantity;
         private System.Windows.Forms.TextBox txt_quantity;
@@ -403,7 +393,6 @@
         private System.Windows.Forms.Button btn_table4;
         private System.Windows.Forms.Button btn_table5;
         private System.Windows.Forms.Button btn_table6;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListView lv_Bill;
         private System.Windows.Forms.ColumnHeader TENMON;
         private System.Windows.Forms.ColumnHeader SOLUONG;
