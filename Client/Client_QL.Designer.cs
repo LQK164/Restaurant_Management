@@ -30,6 +30,7 @@
         {
             this.tc_database = new System.Windows.Forms.TabControl();
             this.tp_NhanVien = new System.Windows.Forms.TabPage();
+            this.btn_Clear_NhanVien = new System.Windows.Forms.Button();
             this.lb_Luong = new System.Windows.Forms.Label();
             this.lb_ChucVu = new System.Windows.Forms.Label();
             this.lb_NgLV = new System.Windows.Forms.Label();
@@ -48,6 +49,7 @@
             this.btn_Add_NhanVien = new System.Windows.Forms.Button();
             this.btn_Show_NhanVien = new System.Windows.Forms.Button();
             this.tp_ThucDon = new System.Windows.Forms.TabPage();
+            this.btn_Clear_ThucDon = new System.Windows.Forms.Button();
             this.lb_Gia = new System.Windows.Forms.Label();
             this.lb_DVT = new System.Windows.Forms.Label();
             this.lb_TenMon = new System.Windows.Forms.Label();
@@ -64,6 +66,7 @@
             this.btn_Add_ThucDon = new System.Windows.Forms.Button();
             this.btn_Show_ThucDon = new System.Windows.Forms.Button();
             this.tp_Ban = new System.Windows.Forms.TabPage();
+            this.btn_Clear_Ban = new System.Windows.Forms.Button();
             this.lb_TinhTrangBan = new System.Windows.Forms.Label();
             this.lb_LoaiBan = new System.Windows.Forms.Label();
             this.lb_SLBan = new System.Windows.Forms.Label();
@@ -80,6 +83,7 @@
             this.btn_Add_Ban = new System.Windows.Forms.Button();
             this.btn_Show_all_Ban = new System.Windows.Forms.Button();
             this.tp_HoaDon = new System.Windows.Forms.TabPage();
+            this.btn_Clear_HoaDon = new System.Windows.Forms.Button();
             this.lb_TriGia = new System.Windows.Forms.Label();
             this.txt_TriGia = new System.Windows.Forms.TextBox();
             this.lb_NgHD = new System.Windows.Forms.Label();
@@ -93,20 +97,21 @@
             this.txt_MaKH_HoaDon = new System.Windows.Forms.TextBox();
             this.txt_MaNV_HoaDon = new System.Windows.Forms.TextBox();
             this.txt_MaHD = new System.Windows.Forms.TextBox();
-            this.dvg_HoaDon = new System.Windows.Forms.DataGridView();
+            this.dgv_HoaDon = new System.Windows.Forms.DataGridView();
             this.btn_Find_HoaDon = new System.Windows.Forms.Button();
             this.btn_Delete_HoaDon = new System.Windows.Forms.Button();
             this.btn_Update_HoaDon = new System.Windows.Forms.Button();
             this.btn_Add_HoaDon = new System.Windows.Forms.Button();
             this.btn_Show_HoaDon = new System.Windows.Forms.Button();
             this.tp_KhachHang = new System.Windows.Forms.TabPage();
+            this.btn_Clear_KhachHang = new System.Windows.Forms.Button();
             this.lb_SDT = new System.Windows.Forms.Label();
             this.lb_HoTen_KhachHang = new System.Windows.Forms.Label();
             this.lb_MaKH = new System.Windows.Forms.Label();
             this.txt_Find_KhachHang = new System.Windows.Forms.TextBox();
             this.txt_SDT = new System.Windows.Forms.TextBox();
             this.txt_HoTen_KhachHang = new System.Windows.Forms.TextBox();
-            this.txt_KhachHang = new System.Windows.Forms.TextBox();
+            this.txt_MaKH = new System.Windows.Forms.TextBox();
             this.dgv_KhachHang = new System.Windows.Forms.DataGridView();
             this.btn_Find_KhachHang = new System.Windows.Forms.Button();
             this.btn_Delete_KhachHang = new System.Windows.Forms.Button();
@@ -114,6 +119,7 @@
             this.btn_Add_KhachHang = new System.Windows.Forms.Button();
             this.btn_Show_KhachHang = new System.Windows.Forms.Button();
             this.tp_CTHD = new System.Windows.Forms.TabPage();
+            this.btn_Clear_CTHD = new System.Windows.Forms.Button();
             this.lb_SL = new System.Windows.Forms.Label();
             this.lb_MaMon_CTHD = new System.Windows.Forms.Label();
             this.lb_MaHD_CTHD = new System.Windows.Forms.Label();
@@ -127,7 +133,6 @@
             this.btn_Update_CTHD = new System.Windows.Forms.Button();
             this.btn_Add_CTHD = new System.Windows.Forms.Button();
             this.btn_Show_CTHD = new System.Windows.Forms.Button();
-            this.btn_Refresh_NhanVien = new System.Windows.Forms.Button();
             this.tc_database.SuspendLayout();
             this.tp_NhanVien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_NhanVien)).BeginInit();
@@ -136,7 +141,7 @@
             this.tp_Ban.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Ban)).BeginInit();
             this.tp_HoaDon.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvg_HoaDon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_HoaDon)).BeginInit();
             this.tp_KhachHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KhachHang)).BeginInit();
             this.tp_CTHD.SuspendLayout();
@@ -159,7 +164,7 @@
             // 
             // tp_NhanVien
             // 
-            this.tp_NhanVien.Controls.Add(this.btn_Refresh_NhanVien);
+            this.tp_NhanVien.Controls.Add(this.btn_Clear_NhanVien);
             this.tp_NhanVien.Controls.Add(this.lb_Luong);
             this.tp_NhanVien.Controls.Add(this.lb_ChucVu);
             this.tp_NhanVien.Controls.Add(this.lb_NgLV);
@@ -184,6 +189,17 @@
             this.tp_NhanVien.TabIndex = 0;
             this.tp_NhanVien.Text = "Nhân viên";
             this.tp_NhanVien.UseVisualStyleBackColor = true;
+            // 
+            // btn_Clear_NhanVien
+            // 
+            this.btn_Clear_NhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear_NhanVien.Location = new System.Drawing.Point(550, 6);
+            this.btn_Clear_NhanVien.Name = "btn_Clear_NhanVien";
+            this.btn_Clear_NhanVien.Size = new System.Drawing.Size(130, 80);
+            this.btn_Clear_NhanVien.TabIndex = 19;
+            this.btn_Clear_NhanVien.Text = "Tẩy";
+            this.btn_Clear_NhanVien.UseVisualStyleBackColor = true;
+            this.btn_Clear_NhanVien.Click += new System.EventHandler(this.btn_Clear_NhanVien_Click);
             // 
             // lb_Luong
             // 
@@ -285,6 +301,8 @@
             // 
             // dgv_NhanVien
             // 
+            this.dgv_NhanVien.AllowUserToResizeColumns = false;
+            this.dgv_NhanVien.AllowUserToResizeRows = false;
             this.dgv_NhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_NhanVien.Location = new System.Drawing.Point(6, 129);
             this.dgv_NhanVien.Name = "dgv_NhanVien";
@@ -351,6 +369,7 @@
             // 
             // tp_ThucDon
             // 
+            this.tp_ThucDon.Controls.Add(this.btn_Clear_ThucDon);
             this.tp_ThucDon.Controls.Add(this.lb_Gia);
             this.tp_ThucDon.Controls.Add(this.lb_DVT);
             this.tp_ThucDon.Controls.Add(this.lb_TenMon);
@@ -373,6 +392,17 @@
             this.tp_ThucDon.TabIndex = 1;
             this.tp_ThucDon.Text = "Thực đơn";
             this.tp_ThucDon.UseVisualStyleBackColor = true;
+            // 
+            // btn_Clear_ThucDon
+            // 
+            this.btn_Clear_ThucDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear_ThucDon.Location = new System.Drawing.Point(550, 7);
+            this.btn_Clear_ThucDon.Name = "btn_Clear_ThucDon";
+            this.btn_Clear_ThucDon.Size = new System.Drawing.Size(130, 80);
+            this.btn_Clear_ThucDon.TabIndex = 35;
+            this.btn_Clear_ThucDon.Text = "Tẩy";
+            this.btn_Clear_ThucDon.UseVisualStyleBackColor = true;
+            this.btn_Clear_ThucDon.Click += new System.EventHandler(this.btn_Clear_ThucDon_Click);
             // 
             // lb_Gia
             // 
@@ -456,6 +486,8 @@
             // 
             // dgv_ThucDon
             // 
+            this.dgv_ThucDon.AllowUserToResizeColumns = false;
+            this.dgv_ThucDon.AllowUserToResizeRows = false;
             this.dgv_ThucDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_ThucDon.Location = new System.Drawing.Point(6, 130);
             this.dgv_ThucDon.Name = "dgv_ThucDon";
@@ -463,16 +495,18 @@
             this.dgv_ThucDon.RowTemplate.Height = 28;
             this.dgv_ThucDon.Size = new System.Drawing.Size(674, 674);
             this.dgv_ThucDon.TabIndex = 24;
+            this.dgv_ThucDon.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_ThucDon_RowHeaderMouseClick);
             // 
             // btn_Find_ThucDon
             // 
             this.btn_Find_ThucDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find_ThucDon.Location = new System.Drawing.Point(670, 7);
+            this.btn_Find_ThucDon.Location = new System.Drawing.Point(686, 7);
             this.btn_Find_ThucDon.Name = "btn_Find_ThucDon";
             this.btn_Find_ThucDon.Size = new System.Drawing.Size(130, 80);
             this.btn_Find_ThucDon.TabIndex = 23;
             this.btn_Find_ThucDon.Text = "Tìm";
             this.btn_Find_ThucDon.UseVisualStyleBackColor = true;
+            this.btn_Find_ThucDon.Click += new System.EventHandler(this.btn_Find_ThucDon_Click);
             // 
             // btn_Delete_ThucDon
             // 
@@ -483,6 +517,7 @@
             this.btn_Delete_ThucDon.TabIndex = 22;
             this.btn_Delete_ThucDon.Text = "Xóa";
             this.btn_Delete_ThucDon.UseVisualStyleBackColor = true;
+            this.btn_Delete_ThucDon.Click += new System.EventHandler(this.btn_Delete_ThucDon_Click);
             // 
             // btn_Update_ThucDon
             // 
@@ -493,6 +528,7 @@
             this.btn_Update_ThucDon.TabIndex = 21;
             this.btn_Update_ThucDon.Text = "Sửa";
             this.btn_Update_ThucDon.UseVisualStyleBackColor = true;
+            this.btn_Update_ThucDon.Click += new System.EventHandler(this.btn_Update_ThucDon_Click);
             // 
             // btn_Add_ThucDon
             // 
@@ -503,6 +539,7 @@
             this.btn_Add_ThucDon.TabIndex = 20;
             this.btn_Add_ThucDon.Text = "Thêm";
             this.btn_Add_ThucDon.UseVisualStyleBackColor = true;
+            this.btn_Add_ThucDon.Click += new System.EventHandler(this.btn_Add_ThucDon_Click);
             // 
             // btn_Show_ThucDon
             // 
@@ -513,9 +550,11 @@
             this.btn_Show_ThucDon.TabIndex = 19;
             this.btn_Show_ThucDon.Text = "Xem";
             this.btn_Show_ThucDon.UseVisualStyleBackColor = true;
+            this.btn_Show_ThucDon.Click += new System.EventHandler(this.btn_Show_ThucDon_Click);
             // 
             // tp_Ban
             // 
+            this.tp_Ban.Controls.Add(this.btn_Clear_Ban);
             this.tp_Ban.Controls.Add(this.lb_TinhTrangBan);
             this.tp_Ban.Controls.Add(this.lb_LoaiBan);
             this.tp_Ban.Controls.Add(this.lb_SLBan);
@@ -538,6 +577,17 @@
             this.tp_Ban.TabIndex = 2;
             this.tp_Ban.Text = "Bàn ăn";
             this.tp_Ban.UseVisualStyleBackColor = true;
+            // 
+            // btn_Clear_Ban
+            // 
+            this.btn_Clear_Ban.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear_Ban.Location = new System.Drawing.Point(550, 7);
+            this.btn_Clear_Ban.Name = "btn_Clear_Ban";
+            this.btn_Clear_Ban.Size = new System.Drawing.Size(130, 80);
+            this.btn_Clear_Ban.TabIndex = 35;
+            this.btn_Clear_Ban.Text = "Tẩy";
+            this.btn_Clear_Ban.UseVisualStyleBackColor = true;
+            this.btn_Clear_Ban.Click += new System.EventHandler(this.btn_Clear_Ban_Click);
             // 
             // lb_TinhTrangBan
             // 
@@ -621,23 +671,28 @@
             // 
             // dgv_Ban
             // 
+            this.dgv_Ban.AllowUserToResizeColumns = false;
+            this.dgv_Ban.AllowUserToResizeRows = false;
             this.dgv_Ban.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Ban.Location = new System.Drawing.Point(6, 130);
             this.dgv_Ban.Name = "dgv_Ban";
+            this.dgv_Ban.ReadOnly = true;
             this.dgv_Ban.RowHeadersWidth = 62;
             this.dgv_Ban.RowTemplate.Height = 28;
             this.dgv_Ban.Size = new System.Drawing.Size(674, 674);
             this.dgv_Ban.TabIndex = 24;
+            this.dgv_Ban.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_Ban_RowHeaderMouseClick);
             // 
             // btn_Find_Ban
             // 
             this.btn_Find_Ban.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find_Ban.Location = new System.Drawing.Point(670, 7);
+            this.btn_Find_Ban.Location = new System.Drawing.Point(686, 7);
             this.btn_Find_Ban.Name = "btn_Find_Ban";
             this.btn_Find_Ban.Size = new System.Drawing.Size(130, 80);
             this.btn_Find_Ban.TabIndex = 23;
             this.btn_Find_Ban.Text = "Tìm";
             this.btn_Find_Ban.UseVisualStyleBackColor = true;
+            this.btn_Find_Ban.Click += new System.EventHandler(this.btn_Find_Ban_Click);
             // 
             // btn_Delete_Ban
             // 
@@ -648,6 +703,7 @@
             this.btn_Delete_Ban.TabIndex = 22;
             this.btn_Delete_Ban.Text = "Xóa";
             this.btn_Delete_Ban.UseVisualStyleBackColor = true;
+            this.btn_Delete_Ban.Click += new System.EventHandler(this.btn_Delete_Ban_Click);
             // 
             // btn_Update_Ban
             // 
@@ -658,6 +714,7 @@
             this.btn_Update_Ban.TabIndex = 21;
             this.btn_Update_Ban.Text = "Sửa";
             this.btn_Update_Ban.UseVisualStyleBackColor = true;
+            this.btn_Update_Ban.Click += new System.EventHandler(this.btn_Update_Ban_Click);
             // 
             // btn_Add_Ban
             // 
@@ -668,6 +725,7 @@
             this.btn_Add_Ban.TabIndex = 20;
             this.btn_Add_Ban.Text = "Thêm";
             this.btn_Add_Ban.UseVisualStyleBackColor = true;
+            this.btn_Add_Ban.Click += new System.EventHandler(this.btn_Add_Ban_Click);
             // 
             // btn_Show_all_Ban
             // 
@@ -678,9 +736,11 @@
             this.btn_Show_all_Ban.TabIndex = 19;
             this.btn_Show_all_Ban.Text = "Xem";
             this.btn_Show_all_Ban.UseVisualStyleBackColor = true;
+            this.btn_Show_all_Ban.Click += new System.EventHandler(this.btn_Show_all_Ban_Click);
             // 
             // tp_HoaDon
             // 
+            this.tp_HoaDon.Controls.Add(this.btn_Clear_HoaDon);
             this.tp_HoaDon.Controls.Add(this.lb_TriGia);
             this.tp_HoaDon.Controls.Add(this.txt_TriGia);
             this.tp_HoaDon.Controls.Add(this.lb_NgHD);
@@ -694,7 +754,7 @@
             this.tp_HoaDon.Controls.Add(this.txt_MaKH_HoaDon);
             this.tp_HoaDon.Controls.Add(this.txt_MaNV_HoaDon);
             this.tp_HoaDon.Controls.Add(this.txt_MaHD);
-            this.tp_HoaDon.Controls.Add(this.dvg_HoaDon);
+            this.tp_HoaDon.Controls.Add(this.dgv_HoaDon);
             this.tp_HoaDon.Controls.Add(this.btn_Find_HoaDon);
             this.tp_HoaDon.Controls.Add(this.btn_Delete_HoaDon);
             this.tp_HoaDon.Controls.Add(this.btn_Update_HoaDon);
@@ -707,6 +767,17 @@
             this.tp_HoaDon.TabIndex = 3;
             this.tp_HoaDon.Text = "Hóa đơn";
             this.tp_HoaDon.UseVisualStyleBackColor = true;
+            // 
+            // btn_Clear_HoaDon
+            // 
+            this.btn_Clear_HoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear_HoaDon.Location = new System.Drawing.Point(550, 7);
+            this.btn_Clear_HoaDon.Name = "btn_Clear_HoaDon";
+            this.btn_Clear_HoaDon.Size = new System.Drawing.Size(130, 80);
+            this.btn_Clear_HoaDon.TabIndex = 38;
+            this.btn_Clear_HoaDon.Text = "Tẩy";
+            this.btn_Clear_HoaDon.UseVisualStyleBackColor = true;
+            this.btn_Clear_HoaDon.Click += new System.EventHandler(this.btn_Clear_HoaDon_Click);
             // 
             // lb_TriGia
             // 
@@ -824,25 +895,29 @@
             this.txt_MaHD.Size = new System.Drawing.Size(577, 53);
             this.txt_MaHD.TabIndex = 25;
             // 
-            // dvg_HoaDon
+            // dgv_HoaDon
             // 
-            this.dvg_HoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvg_HoaDon.Location = new System.Drawing.Point(6, 130);
-            this.dvg_HoaDon.Name = "dvg_HoaDon";
-            this.dvg_HoaDon.RowHeadersWidth = 62;
-            this.dvg_HoaDon.RowTemplate.Height = 28;
-            this.dvg_HoaDon.Size = new System.Drawing.Size(674, 674);
-            this.dvg_HoaDon.TabIndex = 24;
+            this.dgv_HoaDon.AllowUserToResizeColumns = false;
+            this.dgv_HoaDon.AllowUserToResizeRows = false;
+            this.dgv_HoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_HoaDon.Location = new System.Drawing.Point(6, 130);
+            this.dgv_HoaDon.Name = "dgv_HoaDon";
+            this.dgv_HoaDon.RowHeadersWidth = 62;
+            this.dgv_HoaDon.RowTemplate.Height = 28;
+            this.dgv_HoaDon.Size = new System.Drawing.Size(674, 674);
+            this.dgv_HoaDon.TabIndex = 24;
+            this.dgv_HoaDon.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_HoaDon_RowHeaderMouseClick);
             // 
             // btn_Find_HoaDon
             // 
             this.btn_Find_HoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find_HoaDon.Location = new System.Drawing.Point(670, 7);
+            this.btn_Find_HoaDon.Location = new System.Drawing.Point(686, 7);
             this.btn_Find_HoaDon.Name = "btn_Find_HoaDon";
             this.btn_Find_HoaDon.Size = new System.Drawing.Size(130, 80);
             this.btn_Find_HoaDon.TabIndex = 23;
             this.btn_Find_HoaDon.Text = "Tìm";
             this.btn_Find_HoaDon.UseVisualStyleBackColor = true;
+            this.btn_Find_HoaDon.Click += new System.EventHandler(this.btn_Find_HoaDon_Click);
             // 
             // btn_Delete_HoaDon
             // 
@@ -853,6 +928,7 @@
             this.btn_Delete_HoaDon.TabIndex = 22;
             this.btn_Delete_HoaDon.Text = "Xóa";
             this.btn_Delete_HoaDon.UseVisualStyleBackColor = true;
+            this.btn_Delete_HoaDon.Click += new System.EventHandler(this.btn_Delete_HoaDon_Click);
             // 
             // btn_Update_HoaDon
             // 
@@ -863,6 +939,7 @@
             this.btn_Update_HoaDon.TabIndex = 21;
             this.btn_Update_HoaDon.Text = "Sửa";
             this.btn_Update_HoaDon.UseVisualStyleBackColor = true;
+            this.btn_Update_HoaDon.Click += new System.EventHandler(this.btn_Update_HoaDon_Click);
             // 
             // btn_Add_HoaDon
             // 
@@ -873,6 +950,7 @@
             this.btn_Add_HoaDon.TabIndex = 20;
             this.btn_Add_HoaDon.Text = "Thêm";
             this.btn_Add_HoaDon.UseVisualStyleBackColor = true;
+            this.btn_Add_HoaDon.Click += new System.EventHandler(this.btn_Add_HoaDon_Click);
             // 
             // btn_Show_HoaDon
             // 
@@ -883,16 +961,18 @@
             this.btn_Show_HoaDon.TabIndex = 19;
             this.btn_Show_HoaDon.Text = "Xem";
             this.btn_Show_HoaDon.UseVisualStyleBackColor = true;
+            this.btn_Show_HoaDon.Click += new System.EventHandler(this.btn_Show_HoaDon_Click);
             // 
             // tp_KhachHang
             // 
+            this.tp_KhachHang.Controls.Add(this.btn_Clear_KhachHang);
             this.tp_KhachHang.Controls.Add(this.lb_SDT);
             this.tp_KhachHang.Controls.Add(this.lb_HoTen_KhachHang);
             this.tp_KhachHang.Controls.Add(this.lb_MaKH);
             this.tp_KhachHang.Controls.Add(this.txt_Find_KhachHang);
             this.tp_KhachHang.Controls.Add(this.txt_SDT);
             this.tp_KhachHang.Controls.Add(this.txt_HoTen_KhachHang);
-            this.tp_KhachHang.Controls.Add(this.txt_KhachHang);
+            this.tp_KhachHang.Controls.Add(this.txt_MaKH);
             this.tp_KhachHang.Controls.Add(this.dgv_KhachHang);
             this.tp_KhachHang.Controls.Add(this.btn_Find_KhachHang);
             this.tp_KhachHang.Controls.Add(this.btn_Delete_KhachHang);
@@ -906,6 +986,17 @@
             this.tp_KhachHang.TabIndex = 4;
             this.tp_KhachHang.Text = "Khách hàng";
             this.tp_KhachHang.UseVisualStyleBackColor = true;
+            // 
+            // btn_Clear_KhachHang
+            // 
+            this.btn_Clear_KhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear_KhachHang.Location = new System.Drawing.Point(550, 6);
+            this.btn_Clear_KhachHang.Name = "btn_Clear_KhachHang";
+            this.btn_Clear_KhachHang.Size = new System.Drawing.Size(130, 80);
+            this.btn_Clear_KhachHang.TabIndex = 34;
+            this.btn_Clear_KhachHang.Text = "Tẩy";
+            this.btn_Clear_KhachHang.UseVisualStyleBackColor = true;
+            this.btn_Clear_KhachHang.Click += new System.EventHandler(this.btn_Clear_KhachHang_Click);
             // 
             // lb_SDT
             // 
@@ -961,16 +1052,18 @@
             this.txt_HoTen_KhachHang.Size = new System.Drawing.Size(577, 53);
             this.txt_HoTen_KhachHang.TabIndex = 26;
             // 
-            // txt_KhachHang
+            // txt_MaKH
             // 
-            this.txt_KhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KhachHang.Location = new System.Drawing.Point(705, 186);
-            this.txt_KhachHang.Name = "txt_KhachHang";
-            this.txt_KhachHang.Size = new System.Drawing.Size(577, 53);
-            this.txt_KhachHang.TabIndex = 25;
+            this.txt_MaKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_MaKH.Location = new System.Drawing.Point(705, 186);
+            this.txt_MaKH.Name = "txt_MaKH";
+            this.txt_MaKH.Size = new System.Drawing.Size(577, 53);
+            this.txt_MaKH.TabIndex = 25;
             // 
             // dgv_KhachHang
             // 
+            this.dgv_KhachHang.AllowUserToResizeColumns = false;
+            this.dgv_KhachHang.AllowUserToResizeRows = false;
             this.dgv_KhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_KhachHang.Location = new System.Drawing.Point(6, 130);
             this.dgv_KhachHang.Name = "dgv_KhachHang";
@@ -978,16 +1071,18 @@
             this.dgv_KhachHang.RowTemplate.Height = 28;
             this.dgv_KhachHang.Size = new System.Drawing.Size(674, 674);
             this.dgv_KhachHang.TabIndex = 24;
+            this.dgv_KhachHang.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_KhachHang_RowHeaderMouseClick);
             // 
             // btn_Find_KhachHang
             // 
             this.btn_Find_KhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find_KhachHang.Location = new System.Drawing.Point(670, 7);
+            this.btn_Find_KhachHang.Location = new System.Drawing.Point(686, 7);
             this.btn_Find_KhachHang.Name = "btn_Find_KhachHang";
             this.btn_Find_KhachHang.Size = new System.Drawing.Size(130, 80);
             this.btn_Find_KhachHang.TabIndex = 23;
             this.btn_Find_KhachHang.Text = "Tìm";
             this.btn_Find_KhachHang.UseVisualStyleBackColor = true;
+            this.btn_Find_KhachHang.Click += new System.EventHandler(this.btn_Find_KhachHang_Click);
             // 
             // btn_Delete_KhachHang
             // 
@@ -998,6 +1093,7 @@
             this.btn_Delete_KhachHang.TabIndex = 22;
             this.btn_Delete_KhachHang.Text = "Xóa";
             this.btn_Delete_KhachHang.UseVisualStyleBackColor = true;
+            this.btn_Delete_KhachHang.Click += new System.EventHandler(this.btn_Delete_KhachHang_Click);
             // 
             // btn_Update_KhachHang
             // 
@@ -1008,6 +1104,7 @@
             this.btn_Update_KhachHang.TabIndex = 21;
             this.btn_Update_KhachHang.Text = "Sửa";
             this.btn_Update_KhachHang.UseVisualStyleBackColor = true;
+            this.btn_Update_KhachHang.Click += new System.EventHandler(this.btn_Update_KhachHang_Click);
             // 
             // btn_Add_KhachHang
             // 
@@ -1018,6 +1115,7 @@
             this.btn_Add_KhachHang.TabIndex = 20;
             this.btn_Add_KhachHang.Text = "Thêm";
             this.btn_Add_KhachHang.UseVisualStyleBackColor = true;
+            this.btn_Add_KhachHang.Click += new System.EventHandler(this.btn_Add_KhachHang_Click);
             // 
             // btn_Show_KhachHang
             // 
@@ -1028,9 +1126,11 @@
             this.btn_Show_KhachHang.TabIndex = 19;
             this.btn_Show_KhachHang.Text = "Xem";
             this.btn_Show_KhachHang.UseVisualStyleBackColor = true;
+            this.btn_Show_KhachHang.Click += new System.EventHandler(this.btn_Show_KhachHang_Click);
             // 
             // tp_CTHD
             // 
+            this.tp_CTHD.Controls.Add(this.btn_Clear_CTHD);
             this.tp_CTHD.Controls.Add(this.lb_SL);
             this.tp_CTHD.Controls.Add(this.lb_MaMon_CTHD);
             this.tp_CTHD.Controls.Add(this.lb_MaHD_CTHD);
@@ -1051,6 +1151,17 @@
             this.tp_CTHD.TabIndex = 5;
             this.tp_CTHD.Text = "Chi tiết hóa đơn";
             this.tp_CTHD.UseVisualStyleBackColor = true;
+            // 
+            // btn_Clear_CTHD
+            // 
+            this.btn_Clear_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear_CTHD.Location = new System.Drawing.Point(550, 7);
+            this.btn_Clear_CTHD.Name = "btn_Clear_CTHD";
+            this.btn_Clear_CTHD.Size = new System.Drawing.Size(130, 80);
+            this.btn_Clear_CTHD.TabIndex = 34;
+            this.btn_Clear_CTHD.Text = "Tẩy";
+            this.btn_Clear_CTHD.UseVisualStyleBackColor = true;
+            this.btn_Clear_CTHD.Click += new System.EventHandler(this.btn_Clear_CTHD_Click);
             // 
             // lb_SL
             // 
@@ -1116,6 +1227,8 @@
             // 
             // dgv_CTHD
             // 
+            this.dgv_CTHD.AllowUserToResizeColumns = false;
+            this.dgv_CTHD.AllowUserToResizeRows = false;
             this.dgv_CTHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_CTHD.Location = new System.Drawing.Point(6, 130);
             this.dgv_CTHD.Name = "dgv_CTHD";
@@ -1123,16 +1236,18 @@
             this.dgv_CTHD.RowTemplate.Height = 28;
             this.dgv_CTHD.Size = new System.Drawing.Size(674, 674);
             this.dgv_CTHD.TabIndex = 24;
+            this.dgv_CTHD.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_CTHD_RowHeaderMouseClick);
             // 
             // btn_Find_CTHD
             // 
             this.btn_Find_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find_CTHD.Location = new System.Drawing.Point(670, 7);
+            this.btn_Find_CTHD.Location = new System.Drawing.Point(686, 7);
             this.btn_Find_CTHD.Name = "btn_Find_CTHD";
             this.btn_Find_CTHD.Size = new System.Drawing.Size(130, 80);
             this.btn_Find_CTHD.TabIndex = 23;
             this.btn_Find_CTHD.Text = "Tìm";
             this.btn_Find_CTHD.UseVisualStyleBackColor = true;
+            this.btn_Find_CTHD.Click += new System.EventHandler(this.btn_Find_CTHD_Click);
             // 
             // btn_Delete_CTHD
             // 
@@ -1143,6 +1258,7 @@
             this.btn_Delete_CTHD.TabIndex = 22;
             this.btn_Delete_CTHD.Text = "Xóa";
             this.btn_Delete_CTHD.UseVisualStyleBackColor = true;
+            this.btn_Delete_CTHD.Click += new System.EventHandler(this.btn_Delete_CTHD_Click);
             // 
             // btn_Update_CTHD
             // 
@@ -1153,6 +1269,7 @@
             this.btn_Update_CTHD.TabIndex = 21;
             this.btn_Update_CTHD.Text = "Sửa";
             this.btn_Update_CTHD.UseVisualStyleBackColor = true;
+            this.btn_Update_CTHD.Click += new System.EventHandler(this.btn_Update_CTHD_Click);
             // 
             // btn_Add_CTHD
             // 
@@ -1163,6 +1280,7 @@
             this.btn_Add_CTHD.TabIndex = 20;
             this.btn_Add_CTHD.Text = "Thêm";
             this.btn_Add_CTHD.UseVisualStyleBackColor = true;
+            this.btn_Add_CTHD.Click += new System.EventHandler(this.btn_Add_CTHD_Click);
             // 
             // btn_Show_CTHD
             // 
@@ -1173,17 +1291,7 @@
             this.btn_Show_CTHD.TabIndex = 19;
             this.btn_Show_CTHD.Text = "Xem";
             this.btn_Show_CTHD.UseVisualStyleBackColor = true;
-            // 
-            // btn_Refresh_NhanVien
-            // 
-            this.btn_Refresh_NhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Refresh_NhanVien.Location = new System.Drawing.Point(550, 6);
-            this.btn_Refresh_NhanVien.Name = "btn_Refresh_NhanVien";
-            this.btn_Refresh_NhanVien.Size = new System.Drawing.Size(130, 80);
-            this.btn_Refresh_NhanVien.TabIndex = 19;
-            this.btn_Refresh_NhanVien.Text = "Tẩy";
-            this.btn_Refresh_NhanVien.UseVisualStyleBackColor = true;
-            this.btn_Refresh_NhanVien.Click += new System.EventHandler(this.btn_Refresh_NhanVien_Click);
+            this.btn_Show_CTHD.Click += new System.EventHandler(this.btn_Show_CTHD_Click);
             // 
             // Client_QL
             // 
@@ -1205,7 +1313,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Ban)).EndInit();
             this.tp_HoaDon.ResumeLayout(false);
             this.tp_HoaDon.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvg_HoaDon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_HoaDon)).EndInit();
             this.tp_KhachHang.ResumeLayout(false);
             this.tp_KhachHang.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KhachHang)).EndInit();
@@ -1283,7 +1391,7 @@
         private System.Windows.Forms.TextBox txt_MaKH_HoaDon;
         private System.Windows.Forms.TextBox txt_MaNV_HoaDon;
         private System.Windows.Forms.TextBox txt_MaHD;
-        private System.Windows.Forms.DataGridView dvg_HoaDon;
+        private System.Windows.Forms.DataGridView dgv_HoaDon;
         private System.Windows.Forms.Button btn_Find_HoaDon;
         private System.Windows.Forms.Button btn_Delete_HoaDon;
         private System.Windows.Forms.Button btn_Update_HoaDon;
@@ -1295,7 +1403,7 @@
         private System.Windows.Forms.TextBox txt_Find_KhachHang;
         private System.Windows.Forms.TextBox txt_SDT;
         private System.Windows.Forms.TextBox txt_HoTen_KhachHang;
-        private System.Windows.Forms.TextBox txt_KhachHang;
+        private System.Windows.Forms.TextBox txt_MaKH;
         private System.Windows.Forms.DataGridView dgv_KhachHang;
         private System.Windows.Forms.Button btn_Find_KhachHang;
         private System.Windows.Forms.Button btn_Delete_KhachHang;
@@ -1317,6 +1425,11 @@
         private System.Windows.Forms.Button btn_Show_CTHD;
         private System.Windows.Forms.Label lb_TriGia;
         private System.Windows.Forms.TextBox txt_TriGia;
-        private System.Windows.Forms.Button btn_Refresh_NhanVien;
+        private System.Windows.Forms.Button btn_Clear_NhanVien;
+        private System.Windows.Forms.Button btn_Clear_ThucDon;
+        private System.Windows.Forms.Button btn_Clear_Ban;
+        private System.Windows.Forms.Button btn_Clear_HoaDon;
+        private System.Windows.Forms.Button btn_Clear_KhachHang;
+        private System.Windows.Forms.Button btn_Clear_CTHD;
     }
 }
