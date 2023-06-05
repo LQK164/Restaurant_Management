@@ -1,0 +1,39 @@
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.Properties.Resources.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.exe.config
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.CopyComplete
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.pdb
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Server.exe.config
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Server.exe
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Server.pdb
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Packet.dll
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Packet.pdb
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.Properties.Resources.resources
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CopyComplete
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.exe
+D:\Users\Desktop\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Server.exe.config
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Server.exe
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Server.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Packet.dll
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\bin\Debug\Packet.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.exe
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\Restaurant_Management\DoAnCuoiKy\Server\obj\Debug\Server.pdb

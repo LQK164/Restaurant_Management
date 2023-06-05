@@ -1,0 +1,12 @@
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\bin\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\PacketStructure.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\PacketStructure.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Packet\obj\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Packet\obj\Debug\PacketStructure.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Packet\obj\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Packet\obj\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Packet\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Packet\bin\Debug\Packet.pdb
