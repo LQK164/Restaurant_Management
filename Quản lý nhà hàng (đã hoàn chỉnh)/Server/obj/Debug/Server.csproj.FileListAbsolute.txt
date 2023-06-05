@@ -1,0 +1,73 @@
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.Properties.Resources.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.exe.config
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Server.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\bin\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.csproj.CopyComplete
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy_DangNhap\Server\obj\Debug\Server.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\bin\Debug\Server.exe.config
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\bin\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\bin\Debug\Server.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\bin\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.Properties.Resources.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CopyComplete
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\bin\Debug\eCryptography.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Server\obj\Debug\Server.frmServer.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\bin\Debug\Server.exe.config
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\bin\Debug\Server.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\bin\Debug\Server.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\bin\Debug\eCryptography.dll
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\bin\Debug\Packet.dll
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\bin\Debug\Packet.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.frmServer.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.Properties.Resources.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.csproj.CopyComplete
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Server\obj\Debug\Server.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\bin\Debug\Server.exe.config
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\bin\Debug\Server.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\bin\Debug\Server.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\bin\Debug\eCryptography.dll
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\bin\Debug\Packet.dll
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\bin\Debug\Packet.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.frmServer.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.Properties.Resources.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.csproj.CopyComplete
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Server\obj\Debug\Server.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\bin\Debug\Server.exe.config
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\bin\Debug\Server.exe
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\bin\Debug\Server.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\bin\Debug\eCryptography.dll
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\bin\Debug\Packet.dll
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\bin\Debug\Packet.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.frmServer.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.exe
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Server\obj\Debug\Server.pdb

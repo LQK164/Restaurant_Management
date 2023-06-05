@@ -1,0 +1,68 @@
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\bin\Debug\Client.exe.config
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\bin\Debug\Client.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\bin\Debug\Client.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\bin\Debug\Packet.dll
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\bin\Debug\Packet.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.frmDangNhap.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.Properties.Resources.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.csproj.CopyComplete
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.exe
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.pdb
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.frmNhanVien.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.frmQuanLy.resources
+D:\HOCTAP\winform_c#\DoAnCuoiKy\Client\obj\Debug\Client.frmDangKy.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\bin\Debug\Client.exe.config
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\bin\Debug\Client.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\bin\Debug\Client.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\bin\Debug\Packet.dll
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\bin\Debug\Packet.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.frmDangKy.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.frmDangNhap.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.frmNhanVien.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.Properties.Resources.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.frmQuanLy.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.csproj.CopyComplete
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy\Client\obj\Debug\Client.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\bin\Debug\Client.exe.config
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\bin\Debug\Client.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\bin\Debug\Client.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\bin\Debug\Packet.dll
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\bin\Debug\Packet.pdb
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.frmDangKy.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.frmDangNhap.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.frmNhanVien.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.Properties.Resources.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.frmQuanLy.resources
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.csproj.CopyComplete
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.exe
+D:\HOCTAP\QuanLyNhaHang\DoAnCuoiKy_ver4\Client\obj\Debug\Client.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\bin\Debug\Client.exe.config
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\bin\Debug\Client.exe
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\bin\Debug\Client.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\bin\Debug\Packet.dll
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\bin\Debug\Packet.pdb
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.frmDangKy.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.frmDangNhap.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.frmNhanVien.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.frmQuanLy.resources
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.exe
+C:\Users\User.DESKTOP-CTIQ4C3\Desktop\Nhóm 4\DoAnCuoiKy_hoanchinh\Client\obj\Debug\Client.pdb
